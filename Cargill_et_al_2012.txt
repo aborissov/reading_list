@@ -1,0 +1,71 @@
+Current Fragmentation and Particle Acceleration in Solar Flares
+Cargill et. al. 2012.
+
+Main features of flares noted in introduction.
+	Energies 10^27-10^32 ergs
+	HXR emission on order of seconds, power law above 10 keV due to electrons. Soft-hard-soft typical evolution
+	HXR emission predominantly at footpoints but also in corona (Krucker et al. 2008)
+	TTM model (see references) implies 10^38 electrons accelerated to 10-100 keV in a few seconds
+	Gamma ray emission at footpoints 10-100 MeV
+
+Number and efficiency problems:
+	non-relativistic electrons
+	number: at least entire coronal electron population needs to be accelerated
+	efficiency: ~10% of energy must be in electrons > 10keV
+
+Discussion of braiding and energy dissipation
+	Energy injected through footpoint motions, dissipated via reconnection.
+	Sequence of stressing, relaxation (diffusion) even with continuous driving
+	(See Nordlund and Galsgaard 2012, thesis by Jenny for more info/references)
+
+Self Organised Criticality (SOC)
+	See Bak 1999, Lu and Hamilton 1991, others
+	Non-physical rules for stressing and relaxation of coronal field yield power laws in energy
+	Has since been put into (somewhat?) more physical foundation (see e.g. Charbonneau et al 2001)
+	Need good connection between SOC and MHD simulations to properly use.
+
+Standard Flare Model
+	Eruption drives flare energy release
+	See Kopp and Pneuman 1976, Cargill and Priest 1982 for current sheet to explain post flare loops (way around eruption?)
+	probably only one way of creating solar flares, rather than explanation for all.
+
+Resistivity and Current sheet size
+	Amount of dissipation roughly independent of resistivity (see Nordlund and Galsgaard 1996, 2012)
+	Energy dissipated ~ A*Q ~ Lds*Q, Q ~ eta*J^2 ~ 1/ds, hence independent of resistivity (and thus resolution)
+	Hence electric field ~eta*J is approximately independent of current sheet thickness
+
+Current Sheets and Acceleration:
+	Can produce three ways of accelerating particles: shocks, turbulence, DC electric field
+	Shocks good option in other astrophysical phenomena, but coronal field too strong to create fast shocks for plasma outflows (need to be faster than fast mode speed, strong B field prohibits this).
+	Can create slow shocks, or shocks when encountering other magnetic field but these are not effective at accelerating
+	See Longcope et al 2010, Isenberg 1986, Kundu et al 1989 (probably many others)
+	Turbulence has issues with actually being observed (or being there), requirement for high efficiency (energy needs to be transferred from jet to turbulence, then to particles
+	See Lazarian 2012, Petrosian 2012
+
+DC electric field
+	Particle acceleration in fragmented current sheet (Onofri et al 2006, Dmitruk et al 2003, etc) show many sites of acceleration
+	most efficient on electrons (accelerate in 100 microseconds), ions slower to accelerate
+	Test particles in MHD code gain more energy than there is free magnetic energy to begin with. Creates problems for accelerating ions
+	Need feedback from energetic electrons to make realistic picture
+	PIC simulations support general idea (Drake et al 2006, Daughton et al 2011), however not realistic enough due to big separation of scales (too computationally intensive in 3d)
+	2d PIC simulations with many islands shows higher energy particles gain more energy - indicates Fermi process - energy gain proportional to energy
+	Behind limb observations seem to support this PIC picture (Krucker 2010?)
+
+Braided field acceleration
+	See Turkmani et al 2005,2006 and Cargill et al 2006
+	Seems to be too efficient (spectra too hard)
+	Due to test particles not having feedback onto MHD simulations
+	May also be due to poor resolution creating large current sheets, lots of sites for acceleration
+
+Kink unstable loop
+	See Gordovskyy and Browning 2011
+	Results similar to braiding, slightly softer spectra, 5% efficiency in acceleration so feedback may not be such an issue
+	This may be due to smaller energy release, higher resolution
+
+SOC accelertion sites
+	See Arzner and Vlahos 2004
+	Consists of 'nodes' where particles are accelerated, use Monte Carlo, assume particles jump between nodes get power law distribution
+	Gaussian distribution initial conditions give Fermi-like acceleration (?)
+	Seems like power laws are easy to obtain, need some way to differentiate mechanisms from observations (own comment)
+
+
