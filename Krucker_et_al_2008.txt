@@ -1,0 +1,41 @@
+Hard X-ray emission from the solar corona
+Krucker et al 2008
+
+Early emission
+	A few observations (see references in section 2.1) show HXR emission before the impulsive phase.
+	Energies obtained >10 keV
+	Weak footpoint emission, most comes from corona
+
+Masuda flare
+	First observation of coronal HXR emission
+	7Mm above thermal loop, 30 - 50 keV energy, similar time evolution to footpoint sources
+	No enhanced soft xray emission
+	Disappears after impulsive phase
+
+	Most flares don't seem to follow this pattern, with separations between HXR and thermal emission being less or non-existent
+
+Double coronal source
+	See references, but seems to be an interesting exception(?)
+
+Coronal thick target
+	HXR emission from corona, little from footpoints
+	See papers by Veronig and Brown 2004, etc
+	High column densities in SXR loops, electrons do not reach chromosphere
+	High density attributed to chromospheric evaporation
+
+HXR motion
+	See Sui et al 2006
+	The position of HXR sources seems to move around sometimes, starting a bove the limb, moving down along the flare loop, reach near the footpoints, then move up again
+	Downward speed ~500-700 km/s, upawrd 340 km/s
+	Inconsistent with sound speed or alfven speed
+
+HXR from high corona
+	Kane et al 1992 observe emission up to 80 keV for flare occulted by 40 degrees
+	Others have seen similar, so not uncommon
+	Associated with CMEs
+	Emission shows fast rise, slower exponential decay, indicative of collisional losses without further acceleration.
+	Up to 10% of electrons >10 keV in flare may be in high corona
+
+Gamma ray emission also present
+
+

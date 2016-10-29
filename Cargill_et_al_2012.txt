@@ -68,4 +68,18 @@ SOC accelertion sites
 	Gaussian distribution initial conditions give Fermi-like acceleration (?)
 	Seems like power laws are easy to obtain, need some way to differentiate mechanisms from observations (own comment)
 
+Multi-scale coupling MHD and PIC simulations
+	Baumann et al 2012 (two papers) took potential field extrapolations of spine-fan field, applied MHD evolution with photospheric driving. 
+	After reconnection near the null point sets in set up PIC simulation in subset of frame (although still need to modify speed of light, charge per particle)
+	Current sheets from MHD persist into PIC on average, but fragment, become turbulent.
+	Get power law with index -1.77
+	Acceleration by DC field
 
+Other notes (from discussion)
+	Number problem suggest to be partly resolved by putting acceleration in chromosphere/lower transition region (Brown et al 2009), although not clear how energy is confined there and doesn't dissipate into corona
+	Fletcher and Hudson 2008 suggestion to propagate Alfven waves into chromosphere (maybe think more about this)
+
+My thoughts
+	Can we make toy models of acceleration using concepts from SOC trying to get analogies to results from MHD simulations wrt acceleration, scattering? (similar to Arzner and Vlahos 2004, etc). Simlification of physics may allow addressing number/efficiency problems
+	Need to look at observations in more detail
+	Differences in results between fragmented and turbulent, fragmented and non-fragmented current sheets? 
